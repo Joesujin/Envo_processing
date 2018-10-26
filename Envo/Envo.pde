@@ -1,4 +1,4 @@
-Bees b[] = new Bees[1000];
+Bees b[] = new Bees[100];
 
 
 void setup()
@@ -21,7 +21,7 @@ void draw()
   
    b[i].update();
    b[i].move();
-   b[i].trail();
+   //b[i].trail();
    b[i].check();
    b[i].display();
    

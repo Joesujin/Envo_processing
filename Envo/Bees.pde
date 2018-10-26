@@ -46,7 +46,7 @@ class Bees
   
   void trail()
   {
-    stroke(255,10);
+    stroke(255,100);
     line(0,0,location.x,location.y);
     
   }
